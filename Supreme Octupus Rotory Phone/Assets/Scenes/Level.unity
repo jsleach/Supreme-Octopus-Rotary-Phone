@@ -124,6 +124,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 21272568, guid: 52d64e255e0224684a1d9abd70489600, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 8bf1743a042534d068ef17f737624b94,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52d64e255e0224684a1d9abd70489600, type: 2}
   m_IsPrefabParent: 0
@@ -223,7 +228,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 82c98a59e12184a22906aa028e7c72cc, type: 3}
+  m_Sprite: {fileID: 21300008, guid: 8bf1743a042534d068ef17f737624b94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1001,6 +1006,11 @@ Prefab:
       propertyPath: m_Name
       value: OctopusEye (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 21272568, guid: 52d64e255e0224684a1d9abd70489600, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 8bf1743a042534d068ef17f737624b94,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52d64e255e0224684a1d9abd70489600, type: 2}
   m_IsPrefabParent: 0
