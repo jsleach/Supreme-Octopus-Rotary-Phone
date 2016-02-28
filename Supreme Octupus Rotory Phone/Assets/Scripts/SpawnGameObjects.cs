@@ -4,25 +4,27 @@ using System.Collections.Generic;
 
 public class SpawnGameObjects : MonoBehaviour
 {
-	private ObjectPool pool;
-	private Transform positionTransform;
+	//private ObjectPool pool;
+	//private Transform positionTransform;
 
 	public float minSecondsBetweenSpawning = 3.0f;
 	public float maxSecondsBetweenSpawning = 6.0f;
+	public GameObject objectToSpawn;
 
 	private float savedTime;
 	private float secondsBetweenSpawning;
 	private Transform spawnerTransform;
 
 	void Start() {		
-		pool = this.gameObject.GetComponent<ObjectPool> ();
-		positionTransform = this.gameObject.GetComponent<Transform>();
+		//pool = this.gameObject.GetComponent<ObjectPool> ();
+		spawnerTransform = this.gameObject.GetComponent<Transform>();
+		BeginSpawning ();
 	}
 
 	// Use this for initialization
 	public void BeginSpawning ()
 	{
-		MakeThingToSpawn ();
+		//MakeThingToSpawn ();
 		savedTime = Time.time;
 		secondsBetweenSpawning = Random.Range (minSecondsBetweenSpawning, maxSecondsBetweenSpawning);
 	}
@@ -30,7 +32,7 @@ public class SpawnGameObjects : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (savedTime != 0.0f && Time.time - savedTime >= secondsBetweenSpawning) { // is it time to spawn again?
+		if (Time.time - savedTime >= secondsBetweenSpawning) { // is it time to spawn again?
 			MakeThingToSpawn ();
 			savedTime = Time.time; // store for next spawn
 			secondsBetweenSpawning = Random.Range (minSecondsBetweenSpawning, maxSecondsBetweenSpawning);
@@ -40,7 +42,7 @@ public class SpawnGameObjects : MonoBehaviour
 
 	void MakeThingToSpawn ()
 	{
-		var avilableObjects = pool.GetAvailablePoolObjectNames ();
+		/*var avilableObjects = pool.GetAvailablePoolObjectNames ();
 		if (avilableObjects.Count > 0) {
 			var randomIndex = (int) System.Math.Floor(Random.Range(0, avilableObjects.Count) - 0.01f);
 			var obj = pool.GetObjectForType (avilableObjects[randomIndex], true);
@@ -48,10 +50,14 @@ public class SpawnGameObjects : MonoBehaviour
 				//obj.GetComponent<ObstacleMovement> ().BeginMoving ();
 				obj.transform.position = positionTransform.position;
 			}
-		}
+		}*/
+		//GameObject spawnedObject = new GameObject (objectToSpawn.name);
+		GameObject spawnedObject = Instantiate (objectToSpawn) as GameObject;
+		spawnedObject.transform.position = spawnerTransform.position;
+
 	}
 
 	public void UnspawnThing(GameObject obj) {
-		pool.PoolObject (obj);
+		//pool.PoolObject (obj);
 	}
 }
