@@ -51,7 +51,7 @@ public class SpawnGameObjects : MonoBehaviour
 				obj.transform.position = positionTransform.position;
 			}
 		}*/
-		//GameObject spawnedObject = new GameObject (objectToSpawn.name);
+
 		GameObject spawnedObject = Instantiate (objectToSpawn) as GameObject;
 		spawnedObject.transform.position = spawnerTransform.position;
 
