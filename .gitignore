@@ -1,0 +1,10 @@
+Supreme Octupus Rotory Phone/Temp/
+Supreme Octupus Rotory Phone/Library/
+Supreme Octupus Rotory Phone/Obj/
+ 
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.DS_store
