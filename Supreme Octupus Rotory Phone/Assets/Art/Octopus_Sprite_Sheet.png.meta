@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 82c98a59e12184a22906aa028e7c72cc
+timeCreated: 1456647803
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Octopus_Sprite_Sheet_0
+    21300002: Octopus_Sprite_Sheet_1
+    21300004: Octopus_Sprite_Sheet_2
+    21300006: Octopus_Sprite_Sheet_3
+    21300008: Octopus_Sprite_Sheet_4
+    21300010: Octopus_Sprite_Sheet_5
+    21300012: Octopus_Sprite_Sheet_6
+    21300014: Octopus_Sprite_Sheet_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Octopus_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 967
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 18}
+        - {x: -18, y: 15}
+        - {x: -18, y: -15}
+        - {x: -13, y: -18}
+        - {x: 11, y: -18}
+        - {x: 18, y: -11}
+        - {x: 18, y: 12}
+        - {x: 12, y: 18}
+    - name: Octopus_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 671
+        width: 352
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 174, y: -38.5}
+        - {x: 155, y: -33.5}
+        - {x: 114, y: -26.5}
+        - {x: 84, y: 9.5}
+        - {x: 72, y: 53.5}
+        - {x: 45, y: 99.5}
+        - {x: -17, y: 160.5}
+        - {x: -51, y: 172.5}
+        - {x: -114, y: 172.5}
+        - {x: -131, y: 161.5}
+        - {x: -139, y: 140.5}
+        - {x: -143, y: 47.5}
+        - {x: -137, y: 33.5}
+        - {x: -108, y: -24.5}
+        - {x: -107, y: -40.5}
+        - {x: -147, y: -57.5}
+        - {x: -176, y: -82.5}
+        - {x: -176, y: -100.5}
+        - {x: -175, y: -102.5}
+        - {x: -132, y: -114.5}
+        - {x: -124, y: -163.5}
+        - {x: -117, y: -169.5}
+        - {x: -103, y: -172.5}
+        - {x: -102, y: -172.5}
+        - {x: -17, y: -152.5}
+        - {x: 47, y: -172.5}
+        - {x: 82, y: -172.5}
+        - {x: 100, y: -124.5}
+        - {x: 176, y: -63.5}
+        - {x: 176, y: -43.5}
+    - name: Octopus_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 751
+        width: 214
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -107, y: 29}
+        - {x: -107, y: -29}
+        - {x: 107, y: -29}
+        - {x: 107, y: 29}
+    - name: Octopus_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 582
+        width: 123
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.5, y: 46}
+        - {x: -61.5, y: 29}
+        - {x: -61.5, y: -40}
+        - {x: -54.5, y: -46}
+        - {x: 61.5, y: -46}
+        - {x: 61.5, y: 35}
+        - {x: 54.5, y: 46}
+    - name: Octopus_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 185
+        width: 192
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 67.5}
+        - {x: 27, y: 118.5}
+        - {x: -7, y: 134.5}
+        - {x: -96, y: 134.5}
+        - {x: -96, y: 51.5}
+        - {x: -1, y: -134.5}
+        - {x: 96, y: -134.5}
+        - {x: 96, y: -106.5}
+        - {x: 91, y: -92.5}
+        - {x: -24, y: 60.5}
+        - {x: -42, y: 77.5}
+    - name: Octopus_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 191
+        width: 193
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.5, y: 133.5}
+        - {x: -96.5, y: 59.5}
+        - {x: 19.5, y: -96.5}
+        - {x: 75.5, y: -133.5}
+        - {x: 96.5, y: -133.5}
+        - {x: 96.5, y: -75.5}
+        - {x: 30.5, y: 100.5}
+        - {x: -31.5, y: 133.5}
+    - name: Octopus_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 196
+        width: 209
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.5, y: 126}
+        - {x: -104.5, y: 126}
+        - {x: -104.5, y: 82}
+        - {x: 38.5, y: -99}
+        - {x: 85.5, y: -126}
+        - {x: 104.5, y: -126}
+        - {x: 104.5, y: -100}
+        - {x: -15.5, y: 79}
+    - name: Octopus_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 207
+        width: 108
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 131.5}
+        - {x: -54, y: 104.5}
+        - {x: -54, y: -125.5}
+        - {x: -47, y: -131.5}
+        - {x: 54, y: -131.5}
+        - {x: 54, y: 131.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
