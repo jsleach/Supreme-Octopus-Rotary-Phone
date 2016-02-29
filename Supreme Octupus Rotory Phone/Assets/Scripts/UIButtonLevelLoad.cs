@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 
@@ -6,8 +7,8 @@ public class UIButtonLevelLoad : MonoBehaviour {
 	
 	public string LevelToLoad;
 	
-	public void loadLevel() {
+	void OnMouseDown() {
 		//Load the level from LevelToLoad
-		UnityEngine.SceneManagement.SceneManager.LoadScene(LevelToLoad);
+		SceneManager.LoadScene(LevelToLoad);
 	}
 }

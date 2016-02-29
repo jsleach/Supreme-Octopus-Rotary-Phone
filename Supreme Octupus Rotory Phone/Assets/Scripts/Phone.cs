@@ -5,8 +5,9 @@ public class Phone : MonoBehaviour {
 
 	public float timeToLive;
 
-	public delegate void ScoreHandler();
-	public static event ScoreHandler onPhoneClick;
+	public delegate void PhoneHandler();
+	public static event PhoneHandler onPhoneClick;
+	public static event PhoneHandler onPhoneDeath;
 
 	private float createdTime;
 
@@ -18,13 +19,13 @@ public class Phone : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Time.time - createdTime >= timeToLive) {
-			destroyPhone ();
+			phoneDeath ();
 		}
 	}
 
 	void OnMouseDown() {
 		phoneClick ();
-		destroyPhone ();
+		Destroy (gameObject);
 	}
 
 	public static void phoneClick() {
@@ -33,7 +34,10 @@ public class Phone : MonoBehaviour {
 		}
 	}
 
-	void destroyPhone() {
+	public void phoneDeath() {
+		if (onPhoneDeath != null) {
+			onPhoneDeath ();
+		}
 		Destroy (gameObject);
 	}
 }

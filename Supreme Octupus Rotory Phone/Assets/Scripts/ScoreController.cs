@@ -8,16 +8,17 @@ public class ScoreController : MonoBehaviour {
 	private int score = 0;
 
 	// Use this for initialization
-	public void Awake() {
+	void Awake() {
 		Phone.onPhoneClick += this.updateScore;
 	}
 
-	public void Start() {
+	void Start() {
 		scoreText.text = "Score: " + score;
 	}
 
-	public void updateScore() {
+	void updateScore() {
 		score++;
 		scoreText.text = "Score: " + score;
+		PlayerPrefs.SetInt ("Current Score", score);
 	}
 }
